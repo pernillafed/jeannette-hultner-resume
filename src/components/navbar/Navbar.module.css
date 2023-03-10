@@ -1,6 +1,13 @@
+.navbarWrapper {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
 .navbar {
     background-color: #D9F6D9;
-    padding: 0.5rem 0.75rem;
+    padding: 0.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,19 +16,26 @@
 .title {
     display: flex;
     align-items: center;
+    margin-left: 0.65rem;
 }
 
 .title img {
-    width: 14%;
-    margin-right: 0.75rem;
+    width: 12%;
+    margin-right: 0.5rem;
+    display: none;
 }
 
 .title span {
     font-family: 'Rouge Script', cursive;
-    font-size: 2.5rem;
+    font-size: 2.75rem;
 }
 
 .navbar svg {
     font-size: 1.5rem;
-    margin-right: 0.5rem;
+    padding: 0.5rem 0.65rem;
+    border-radius: 0.5rem;
+}
+
+.dropdownActive {
+    background-color: #badaba;
 }

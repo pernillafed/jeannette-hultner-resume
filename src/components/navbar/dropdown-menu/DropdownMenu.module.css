@@ -1,0 +1,20 @@
+.dropdown {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    position: absolute;
+    right: 0.5rem;
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: #222;
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-color: #D9F6D9;
+    margin-bottom: 0.5rem;
+    text-align: end;
+    padding: 0.25rem 0.65rem;
+    border-radius: 0.5rem;
+}
