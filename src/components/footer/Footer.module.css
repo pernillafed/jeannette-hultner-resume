@@ -16,4 +16,16 @@
     color: #222;
     font-weight: bold;
     font-size: 1.1rem;
+    transition: text-shadow 0.2s;
+}
+
+@media screen and (min-width: 576px) {
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer a:hover {
+        text-shadow: 0 0 5px #fff;
+    }
 }

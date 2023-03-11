@@ -5,6 +5,7 @@ import Sunflower from "../../assets/sunflower.png";
 import { useState } from "react";
 import DropdownMenu from "./dropdown-menu/DropdownMenu";
 import { useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     const [isDropdownActive, setIsDropdownActive] = useState(false);
@@ -22,6 +23,12 @@ const Navbar = () => {
                     onClick={() => setIsDropdownActive(!isDropdownActive)}
                     className={isDropdownActive ? styles.dropdownActive : ""}
                 />
+                <div className={styles.navLinks}>
+                    <NavLink to="/presentation">Presentation</NavLink>
+                    <NavLink to="/photos">Bilder</NavLink>
+                    <NavLink to="/showreel">Showreel</NavLink>
+                    <NavLink to="/cv">CV</NavLink>
+                </div>
             </div>
             {isDropdownActive && <DropdownMenu />}
         </div>

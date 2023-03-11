@@ -20,22 +20,63 @@
 }
 
 .title img {
-    width: 12%;
-    margin-right: 0.5rem;
     display: none;
 }
 
 .title span {
     font-family: 'Rouge Script', cursive;
     font-size: 2.75rem;
+    cursor: pointer;
 }
 
 .navbar svg {
     font-size: 1.5rem;
-    padding: 0.5rem 0.65rem;
+    padding: 0.5rem 0.75rem;
     border-radius: 0.5rem;
 }
 
 .dropdownActive {
     background-color: #c9e6c9;
+}
+
+.navLinks {
+    display: none;
+    padding-right: 0.75rem;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: #222;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-left: 1.75rem;
+    transition: text-shadow 0.2s;
+}
+
+@media screen and (min-width: 576px) {
+    .title img {
+        display: inline;
+        width: 45px;
+        margin-right: 0.75rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .navbar svg {
+        display: none;
+    }
+
+    .navLinks {
+        display: flex;
+    }
+
+    .navLinks a:hover {
+        text-shadow: 0 0 5px #fff;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .navLinks a {
+        margin-left: 2.25rem;
+    }
 }
