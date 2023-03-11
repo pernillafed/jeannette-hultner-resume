@@ -1,6 +1,8 @@
 .home {
     min-height: 100vh;
-    padding: 6.5rem 2rem;
+    padding: 6.5rem 2rem 6rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .home h1 {
@@ -32,6 +34,7 @@
     margin-bottom: 0.25rem;
     text-decoration: none;
     color: #fff;
+    transition: color 0.2s;
 }
 
 .name {
@@ -64,4 +67,43 @@
     font-size: 1.75rem;
     font-weight: bold;
     margin-top: 0.5rem;
+}
+
+@media screen and (min-width: 576px) {
+    .home {
+        padding: 6.5rem 2rem 5.5rem 2rem;
+    }
+
+    .hero {
+        display: flex;
+        align-items: center;
+    }
+
+    .hero img {
+        width: 40%;
+        border-radius: 1rem 0 0 1rem;
+    }
+
+    .hero div {
+        margin: 0 auto;
+    }
+
+    .hero div a:hover {
+        color: #D9F6D9;
+    }
+
+    .content {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .home {
+        padding: 6.5rem 2rem 5rem 2rem;
+    }
+
+    .hero img {
+        width: 30%;
+    }
 }
