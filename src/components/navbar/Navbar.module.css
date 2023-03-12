@@ -11,6 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0 1px 10px #22222299;
 }
 
 .title {
@@ -47,10 +48,10 @@
 .navLinks a {
     text-decoration: none;
     color: #222;
-    font-size: 1.25rem;
-    font-weight: bold;
+    font-size: 1.15rem;
     margin-left: 1.75rem;
-    transition: text-shadow 0.2s;
+    text-transform: uppercase;
+    transition: color 0.3s;
 }
 
 @media screen and (min-width: 576px) {
@@ -71,7 +72,7 @@
     }
 
     .navLinks a:hover {
-        text-shadow: 0 0 5px #fff;
+        color: #2c4e2c;
     }
 }
 

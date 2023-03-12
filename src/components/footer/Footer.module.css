@@ -9,14 +9,15 @@
     left: 0;
     right: 0;
     bottom: 0;
+    box-shadow: 0 -1px 10px #22222299;
+
 }
 
 .footer a {
     text-decoration: none;
     color: #222;
-    font-weight: bold;
     font-size: 1.1rem;
-    transition: text-shadow 0.2s;
+    transition: color 0.3s;
 }
 
 @media screen and (min-width: 576px) {
@@ -26,6 +27,6 @@
     }
 
     .footer a:hover {
-        text-shadow: 0 0 5px #fff;
+        color: #2c4e2c;
     }
 }

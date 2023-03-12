@@ -30,7 +30,7 @@ const Navbar = () => {
                     <NavLink to="/cv">CV</NavLink>
                 </div>
             </div>
-            {isDropdownActive && <DropdownMenu />}
+            {isDropdownActive && <DropdownMenu setIsDropdownActive={setIsDropdownActive} />}
         </div>
     );
 }
