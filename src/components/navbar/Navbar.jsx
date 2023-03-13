@@ -25,7 +25,7 @@ const Navbar = () => {
                 />
                 <div className={styles.navLinks}>
                     <NavLink to="/presentation">Presentation</NavLink>
-                    <NavLink to="/photos">Bilder</NavLink>
+                    <NavLink to="/pictures">Bilder</NavLink>
                     <NavLink to="/showreel">Showreel</NavLink>
                     <NavLink to="/cv">CV</NavLink>
                 </div>
