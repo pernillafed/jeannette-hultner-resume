@@ -1,4 +1,4 @@
-import PresentationVideo from "../../assets/presentation.mov";
+import PresentationVideo from "../../assets/videos/presentation.mov";
 import presentationText from "../../assets/data/presentationText.json";
 import styles from "./Presentation.module.css";
 

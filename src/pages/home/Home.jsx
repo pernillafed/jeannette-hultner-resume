@@ -12,7 +12,7 @@ const Home = () => {
                 <div>
                     <div>
                         <p className={styles.name}>Jeannette Hultner</p>
-                        <p className={styles.profession}>Skådespelare</p>
+                        <p className={styles.profession}>Skådespelerska</p>
                     </div>
                     <div>
                         <a href="mailto:jeannette.hultner@telia.com">jeannette.hultner@telia.com</a>
