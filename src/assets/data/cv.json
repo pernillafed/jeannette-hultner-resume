@@ -1,34 +1,10 @@
 [
     {
         "id": "category-1",
-        "name": "film/tv",
-        "entries": [
+        "name": "film/reklam",
+        "entries": [            
             {
                 "id": "film-1",
-                "name": "Pain Killer",
-                "description": "TV-serie",
-                "title": "Skådespelare",
-                "company": "Garagefilm",
-                "year": 2022
-            },
-            {
-                "id": "film-2",
-                "name": "Last week tonight with John Oliver",
-                "description": "Talkshow",
-                "title": "Statist",
-                "company": "Partially Important Productions US",
-                "year": 2022
-            },
-            {
-                "id": "film-3",
-                "name": "Sugarbaby",
-                "description": "TV-serie",
-                "title": "Statist",
-                "company": "SVT",
-                "year": 2022
-            },
-            {
-                "id": "film-4",
                 "name": "Vardaga äldreboende",
                 "description": "Reklam",
                 "title": "Skådespelare",
@@ -36,7 +12,7 @@
                 "year": 2022
             },
             {
-                "id": "film-5",
+                "id": "film-2",
                 "name": "Cargo Bike",
                 "description": "Reklam",
                 "title": "Statist",
@@ -44,15 +20,7 @@
                 "year": 2022
             },
             {
-                "id": "film-6",
-                "name": "Hålla samman",
-                "description": "TV-serie",
-                "title": "Sjungande statist",
-                "company": "Anagram",
-                "year": 2022
-            },
-            {
-                "id": "film-7",
+                "id": "film-3",
                 "name": "Sommarkortet Skånetrafiken",
                 "description": "Reklam",
                 "title": "Statist",
@@ -60,7 +28,7 @@
                 "year": 2022
             },
             {
-                "id": "film-8",
+                "id": "film-4",
                 "name": "Arjo Equipment",
                 "description": "Reklam (2 dagar)",
                 "title": "Skådespelare",
@@ -68,7 +36,7 @@
                 "year": 2022
             },
             {
-                "id": "film-9",
+                "id": "film-5",
                 "name": "Socialstyrelsen",
                 "description": "Information",
                 "title": "Skådespelare",
@@ -76,7 +44,7 @@
                 "year": 2021
             },
             {
-                "id": "film-10",
+                "id": "film-6",
                 "name": "IKEA",
                 "description": "Reklam",
                 "title": "Skådespelare",
@@ -84,7 +52,7 @@
                 "year": 2021
             },
             {
-                "id": "film-11",
+                "id": "film-7",
                 "name": "Arjo Equipment",
                 "description": "Reklam (6 dagar)",
                 "title": "Skådespelare",
@@ -92,7 +60,7 @@
                 "year": 2021
             },
             {
-                "id": "film-12",
+                "id": "film-8",
                 "name": "Bostadsmatchning",
                 "description": "Reklam",
                 "title": "Skådespelare",
@@ -100,7 +68,7 @@
                 "year": 2021
             },
             {
-                "id": "film-13",
+                "id": "film-9",
                 "name": "Shell",
                 "description": "Reklam",
                 "title": "Skådespelare (mormor)",
@@ -108,7 +76,7 @@
                 "year": 2021
             },
             {
-                "id": "film-14",
+                "id": "film-10",
                 "name": "Heimstaden",
                 "description": "Reklam",
                 "title": "Skådespelare",
@@ -116,15 +84,7 @@
                 "year": 2020
             },
             {
-                "id": "film-15",
-                "name": "Tunna blå linjen",
-                "description": "TV-serie",
-                "title": "Röstskådespelare",
-                "company": "Anagram",
-                "year": 2020
-            },
-            {
-                "id": "film-16",
+                "id": "film-11",
                 "name": "Forenet Kredit",
                 "description": "Dansk reklam",
                 "title": "Skådespelare",
@@ -132,7 +92,7 @@
                 "year": 2020
             },
             {
-                "id": "film-17",
+                "id": "film-12",
                 "name": "Weekend Malmö",
                 "description": "Reklam",
                 "title": "Skådespelare",
@@ -140,7 +100,7 @@
                 "year": 2020
             },
             {
-                "id": "film-18",
+                "id": "film-13",
                 "name": "Tetra Pak",
                 "description": "Reklam",
                 "title": "Skådespelare (mormor)",
@@ -148,15 +108,7 @@
                 "year": 2020
             },
             {
-                "id": "film-19",
-                "name": "Tunna blå linjen",
-                "description": "TV-serie",
-                "title": "Statist",
-                "company": "Anagram",
-                "year": 2019
-            },
-            {
-                "id": "film-20",
+                "id": "film-14",
                 "name": "Alt eller Intet",
                 "description": "Reklam",
                 "title": "Statist",
@@ -164,7 +116,7 @@
                 "year": 2019
             },
             {
-                "id": "film-21",
+                "id": "film-15",
                 "name": "Som du smiler",
                 "description": "Musikvideo",
                 "title": "Avancerad statist",
@@ -172,23 +124,7 @@
                 "year": 2019
             },
             {
-                "id": "film-22",
-                "name": "Tunna blå linjen",
-                "description": "TV-serie",
-                "title": "Avancerad statist",
-                "company": "Anagram",
-                "year": 2019
-            },
-            {
-                "id": "film-23",
-                "name": "Festen 2",
-                "description": "TV-serie",
-                "title": "Statist",
-                "company": "SVT",
-                "year": 2019
-            },
-            {
-                "id": "film-24",
+                "id": "film-16",
                 "name": "IKEA",
                 "description": "Reklam",
                 "title": "Skådespelare (mormor)",
@@ -196,7 +132,7 @@
                 "year": 2019
             },
             {
-                "id": "film-25",
+                "id": "film-17",
                 "name": "IKEA",
                 "description": "Reklam",
                 "title": "Skådespelare (mormor)",
@@ -204,15 +140,7 @@
                 "year": 2019
             },
             {
-                "id": "film-26",
-                "name": "Tsunami",
-                "description": "TV-serie",
-                "title": "Skådespelare (mormor)",
-                "company": "Filmlance",
-                "year": 2018
-            },
-            {
-                "id": "film-27",
+                "id": "film-18",
                 "name": "Pelle Erövraren",
                 "description": "Film",
                 "title": "Skådespelare (utvandrare)",
@@ -223,6 +151,84 @@
     },
     {
         "id": "category-2",
+        "name": "TV-serier/program",
+        "entries": [
+            {
+                "id": "serie-1",
+                "name": "Pain Killer",
+                "description": "TV-serie",
+                "title": "Skådespelare",
+                "company": "Garagefilm",
+                "year": 2022
+            },
+            {
+                "id": "serie-2",
+                "name": "Last week tonight with John Oliver",
+                "description": "Talkshow",
+                "title": "Statist",
+                "company": "Partially Important Productions US",
+                "year": 2022
+            },
+            {
+                "id": "serie-3",
+                "name": "Sugarbaby",
+                "description": "TV-serie",
+                "title": "Statist",
+                "company": "SVT",
+                "year": 2022
+            },
+            {
+                "id": "serie-4",
+                "name": "Hålla samman",
+                "description": "TV-serie",
+                "title": "Sjungande statist",
+                "company": "Anagram",
+                "year": 2022
+            },
+            {
+                "id": "serie-5",
+                "name": "Tunna blå linjen",
+                "description": "TV-serie",
+                "title": "Röstskådespelare",
+                "company": "Anagram",
+                "year": 2020
+            },
+            {
+                "id": "serie-6",
+                "name": "Tunna blå linjen",
+                "description": "TV-serie",
+                "title": "Statist",
+                "company": "Anagram",
+                "year": 2019
+            },
+            {
+                "id": "serie-7",
+                "name": "Tunna blå linjen",
+                "description": "TV-serie",
+                "title": "Avancerad statist",
+                "company": "Anagram",
+                "year": 2019
+            },
+            {
+                "id": "serie-8",
+                "name": "Festen 2",
+                "description": "TV-serie",
+                "title": "Statist",
+                "company": "SVT",
+                "year": 2019
+            },
+            {
+                "id": "serie-9",
+                "name": "Tsunami",
+                "description": "TV-serie",
+                "title": "Skådespelare (mormor)",
+                "company": "Filmlance",
+                "year": 2018
+            }
+        ]
+    },
+    {
+        "id": "category-3",
         "name": "teater/opera",
         "entries": [
             {
@@ -268,7 +274,7 @@
         ]
     },
     {
-        "id": "category-3",
+        "id": "category-4",
         "name": "övrigt",
         "entries": [
             {
