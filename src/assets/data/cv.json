@@ -1,6 +1,8 @@
 [
     {
-        "film/tv": [
+        "id": "category-1",
+        "name": "film/tv",
+        "entries": [
             {
                 "id": "film-1",
                 "name": "Pain Killer",
@@ -220,7 +222,9 @@
         ]
     },
     {
-        "teater/opera": [
+        "id": "category-2",
+        "name": "teater/opera",
+        "entries": [
             {
                 "id": "teater-1",
                 "name": "Amadeus",
@@ -264,7 +268,9 @@
         ]
     },
     {
-        "övrigt": [
+        "id": "category-3",
+        "name": "övrigt",
+        "entries": [
             {
                 "id": "övrigt-1",
                 "name": "Sparbanken Skåne",
