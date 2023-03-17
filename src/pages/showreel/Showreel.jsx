@@ -12,7 +12,7 @@ const Showreel = () => {
             <h2>Länkar till tidigare projekt</h2>
             <div className={styles.projectLinks}>
                 {projectLinks.map(projectLink => (
-                    <a href={projectLink.url} key={projectLink.id}>{projectLink.name}</a>
+                    <a href={projectLink.url} key={projectLink.id} target="_blank">{projectLink.name}</a>
                 ))}
             </div>
         </div>
