@@ -31,10 +31,6 @@
 }
 
 @media screen and (min-width: 768px) {
-    .presentation {
-        padding: 6.5rem 2rem 5.5rem 2rem;
-    }
-
     .presentation p {
         padding: 1.5rem 1.75rem 1.75rem 1.75rem;
     }
