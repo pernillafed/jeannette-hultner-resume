@@ -17,6 +17,7 @@
     text-decoration: none;
     color: #222;
     transition: color 0.3s;
+    -webkit-text-size-adjust: none;
 }
 
 @media screen and (min-width: 576px) {
