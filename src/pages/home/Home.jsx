@@ -1,5 +1,5 @@
 import styles from "./Home.module.css";
-import Jeannette from "../../assets/photos/jeannette.jpg";
+import Jeannette from "../../assets/photos/jeannette1.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClapperboard, faMasksTheater, faCamera } from "@fortawesome/free-solid-svg-icons";
 
