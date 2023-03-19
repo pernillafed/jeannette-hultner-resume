@@ -12,6 +12,7 @@ const CV = () => {
             setActiveTab(null);
         } else {
             setActiveTab(newTabId);
+            window.scrollTo(0, 0);
         }
     };
 
