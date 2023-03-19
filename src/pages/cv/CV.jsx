@@ -18,23 +18,26 @@ const CV = () => {
     return (
         <div className={styles.cv}>
             <h1>CV</h1>
-            <div>
+            <div className={styles.cvContainer}>
                 {cvJSON.map(category => (
                     <div
                         key={category.id}
-                        className={activeTab === category.id
-                            ? `${styles.categoryContent} ${styles.tabActive}`
-                            : styles.categoryContent
-                        }
+                        className={activeTab === category.id ? styles.contentVisible : ""}
                     >
-                        <div onClick={() => changeTab(category.id)} className={styles.tabContainer}>
+                        <div
+                            onClick={() => changeTab(category.id)}
+                            className={activeTab === category.id 
+                                ? `${styles.tabContainer} ${styles.tabActive}`
+                                : styles.tabContainer
+                            }
+                        >
                             <span>{category.name.toUpperCase()}</span>
                             <FontAwesomeIcon icon={activeTab === category.id ? faAngleUp : faAngleDown} />
                         </div>
                         <div className={activeTab === category.id ? styles.cvContent : ""}>
                             {activeTab === category.id && category.entries.map(entry => (
                                 <div key={entry.id} className={activeTab === category.id ? styles.cvEntry : ""}>
-                                    <div>
+                                    <div className={activeTab === category.id ? styles.entryHeadingWrapper : ""}>
                                         <h2>{entry.name}</h2>
                                         <p>{entry.description}</p>
                                     </div>

@@ -73,12 +73,12 @@
     }
 
     .navLinks a:hover {
-        color: #2c4e2c;
+        color: #465e46;
     }
 }
 
 @media screen and (min-width: 992px) {
     .navLinks a {
-        margin-left: 2.25rem;
+        margin-right: 0.5rem;
     }
 }
