@@ -7,7 +7,7 @@ const Presentation = () => {
         <div className={styles.presentation}>
             <h1>Presentation</h1>
             <video width="100%" controls>
-                <source src={PresentationVideo} type="video/mp4" />
+                <source src={`${PresentationVideo}#t=0.001`} type="video/mp4" />
             </video>
             <p>{presentationText.introduction}</p>
         </div>

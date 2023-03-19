@@ -7,7 +7,7 @@ const Showreel = () => {
         <div className={styles.showreel}>
             <h1>Showreel</h1>
             <video width="100%" controls>
-                <source src={ShowreelVideo} type="video/mp4" />
+                <source src={`${ShowreelVideo}#t=0.001`} type="video/mp4" />
             </video>
             <h2>Länkar till tidigare projekt</h2>
             <div className={styles.projectLinks}>
