@@ -12,7 +12,15 @@ const CV = () => {
             setActiveTab(null);
         } else {
             setActiveTab(newTabId);
-            window.scrollTo(0, 0);
+            if (newTabId === "category-1") {
+                window.scrollTo(0, 80);
+            } else if (newTabId === "category-2") {
+                window.scrollTo(0, 154);
+            } else if (newTabId === "category-3") {
+                window.scrollTo(0, 228);
+            } else {
+                window.scrollTo(0, 300);
+            }
         }
     };
 

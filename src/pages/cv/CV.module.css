@@ -69,6 +69,7 @@
 
 .entryCompany {
     font-style: italic;
+    -webkit-text-size-adjust: none;
 }
 
 .entryTitle {
