@@ -16,7 +16,7 @@ const Navbar = () => {
             <div className={styles.navbar}>
                 <div className={styles.title}>
                     <img src={Sunflower} alt="Flower" />
-                    <span onClick={() => navigate("/")}>Jennette Hultner</span>
+                    <span onClick={() => navigate("/")}>Jeannette Hultner</span>
                 </div>
                 <FontAwesomeIcon
                     icon={faBars}
