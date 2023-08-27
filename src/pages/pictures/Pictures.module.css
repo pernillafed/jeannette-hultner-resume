@@ -1,396 +1,385 @@
 .pictures {
-    min-height: 100vh;
-    padding: 6.5rem 2rem 4.5rem 2rem;
-    max-width: 800px;
-    margin: 0 auto;
+  min-height: 100vh;
+  padding: 6.5rem 2rem 4.5rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .pictures h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .pictures h2 {
-    text-align: center;
-    margin-bottom: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
-.portraits, .projects {
-    background-color: #eee;
-    padding: 1rem;
-    border-radius: 1rem;
-    margin: 2rem 0;
+.portraits,
+.projects {
+  background-color: #eee;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 2rem 0;
 }
 
-.portraitGrid, .projectGrid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.5rem;
+.portraitGrid,
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
 }
 
-.portraitGrid img, .projectGrid img {
-    width: 100%;
-    border-radius: 0.5rem;
-    cursor: pointer;
+.portraitGrid img,
+.projectGrid img {
+  width: 100%;
+  border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 .portraitGrid :nth-child(1) {
-    grid-row-start: 1;
-    grid-row-end: 10;
+  grid-row-start: 1;
+  grid-row-end: 8;
 }
 
 .portraitGrid :nth-child(2) {
-    grid-row-start: 1;
-    grid-row-end: 10;
+  grid-row-start: 1;
+  grid-row-end: 6;
 }
 
 .portraitGrid :nth-child(3) {
-    grid-row-start: 10;
-    grid-row-end: 26;
+  grid-row-start: 8;
+  grid-row-end: 18;
 }
 
 .portraitGrid :nth-child(4) {
-    grid-row-start: 10;
-    grid-row-end: 16;
+  grid-row-start: 6;
+  grid-row-end: 16;
 }
 
 .portraitGrid :nth-child(5) {
-    grid-row-start: 16;
-    grid-row-end: 27;
+  grid-row-start: 18;
+  grid-row-end: 28;
 }
 
 .portraitGrid :nth-child(6) {
-    grid-row-start: 26;
-    grid-row-end: 36;
-}
-
-.portraitGrid :nth-child(7) {
-    grid-row-start: 27;
-    grid-row-end: 37;
+  grid-row-start: 16;
+  grid-row-end: 26;
 }
 
 .projectGrid :nth-child(1) {
-    grid-row-start: 1;
-    grid-row-end: 10;
+  grid-row-start: 1;
+  grid-row-end: 10;
 }
 
 .projectGrid :nth-child(2) {
-    grid-row-start: 1;
-    grid-row-end: 10;
+  grid-row-start: 1;
+  grid-row-end: 10;
 }
 
 .projectGrid :nth-child(3) {
-    grid-row-start: 10;
-    grid-row-end: 16;
+  grid-row-start: 10;
+  grid-row-end: 16;
 }
 
 .projectGrid :nth-child(4) {
-    grid-row-start: 10;
-    grid-row-end: 20;
+  grid-row-start: 10;
+  grid-row-end: 20;
 }
 
 .projectGrid :nth-child(5) {
-    grid-row-start: 16;
-    grid-row-end: 26;
+  grid-row-start: 16;
+  grid-row-end: 26;
 }
 
 .projectGrid :nth-child(6) {
-    grid-row-start: 20;
-    grid-row-end: 36;
+  grid-row-start: 20;
+  grid-row-end: 36;
 }
 
 .projectGrid :nth-child(7) {
-    grid-row-start: 26;
-    grid-row-end: 40;
+  grid-row-start: 26;
+  grid-row-end: 40;
 }
 
 .projectGrid :nth-child(8) {
-    grid-row-start: 36;
-    grid-row-end: 46;
+  grid-row-start: 36;
+  grid-row-end: 46;
 }
 
 .projectGrid :nth-child(9) {
-    grid-row-start: 40;
-    grid-row-end: 50;
+  grid-row-start: 40;
+  grid-row-end: 50;
 }
 
 .projectGrid :nth-child(10) {
-    grid-row-start: 46;
-    grid-row-end: 56;
+  grid-row-start: 46;
+  grid-row-end: 56;
 }
 
 .projectGrid :nth-child(11) {
-    grid-row-start: 50;
-    grid-row-end: 55;
+  grid-row-start: 50;
+  grid-row-end: 55;
 }
 
 .projectGrid :nth-child(12) {
-    grid-row-start: 55;
-    grid-row-end: 60;
+  grid-row-start: 55;
+  grid-row-end: 60;
 }
 
 .projectGrid :nth-child(13) {
-    grid-row-start: 56;
-    grid-row-end: 64;
+  grid-row-start: 56;
+  grid-row-end: 64;
 }
 
 .projectGrid :nth-child(14) {
-    grid-row-start: 60;
-    grid-row-end: 71;
+  grid-row-start: 60;
+  grid-row-end: 71;
 }
 
 .projectGrid :nth-child(15) {
-    grid-row-start: 64;
-    grid-row-end: 68;
+  grid-row-start: 64;
+  grid-row-end: 68;
 }
 
 .projectGrid :nth-child(16) {
-    grid-row-start: 68;
-    grid-row-end: 72;
+  grid-row-start: 68;
+  grid-row-end: 72;
 }
 
-
 @media screen and (min-width: 576px) {
-    .pictures {
-        padding: 6.5rem 2rem 4rem 2rem;
-    }
+  .pictures {
+    padding: 6.5rem 2rem 4rem 2rem;
+  }
 
-    .portraitGrid, .projectGrid {
-        grid-template-columns: repeat(3, 1fr);
-    }
+  .portraitGrid,
+  .projectGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 
-    .portraitGrid :nth-child(1) {
-        grid-row-start: 1;
-        grid-row-end: 10;
-    }
+  .portraitGrid :nth-child(1) {
+    grid-row-start: 1;
+    grid-row-end: 8;
+  }
 
-    .portraitGrid :nth-child(2) {
-        grid-row-start: 1;
-        grid-row-end: 10;
-    }
+  .portraitGrid :nth-child(2) {
+    grid-row-start: 1;
+    grid-row-end: 6;
+  }
 
-    .portraitGrid :nth-child(3) {
-        grid-row-start: 1;
-        grid-row-end: 15;
-    }
+  .portraitGrid :nth-child(3) {
+    grid-row-start: 1;
+    grid-row-end: 10;
+  }
 
-    .portraitGrid :nth-child(4) {
-        grid-row-start: 10;
-        grid-row-end: 16;
-    }
+  .portraitGrid :nth-child(4) {
+    grid-row-start: 8;
+    grid-row-end: 18;
+  }
 
-    .portraitGrid :nth-child(5) {
-        grid-row-start: 10;
-        grid-row-end: 21;
-    }
+  .portraitGrid :nth-child(5) {
+    grid-row-start: 6;
+    grid-row-end: 16;
+  }
 
-    .portraitGrid :nth-child(6) {
-        grid-row-start: 16;
-        grid-row-end: 26;
-    }
+  .portraitGrid :nth-child(6) {
+    grid-row-start: 10;
+    grid-row-end: 20;
+  }
 
-    .portraitGrid :nth-child(7) {
-        grid-row-start: 15;
-        grid-row-end: 25;
-    }
+  .projectGrid :nth-child(1) {
+    grid-row-start: 1;
+    grid-row-end: 10;
+  }
 
-    .projectGrid :nth-child(1) {
-        grid-row-start: 1;
-        grid-row-end: 10;
-    }
+  .projectGrid :nth-child(2) {
+    grid-row-start: 1;
+    grid-row-end: 10;
+  }
 
-    .projectGrid :nth-child(2) {
-        grid-row-start: 1;
-        grid-row-end: 10;
-    }
+  .projectGrid :nth-child(3) {
+    grid-row-start: 1;
+    grid-row-end: 6;
+  }
 
-    .projectGrid :nth-child(3) {
-        grid-row-start: 1;
-        grid-row-end: 6;
-    }
+  .projectGrid :nth-child(4) {
+    grid-row-start: 6;
+    grid-row-end: 16;
+  }
 
-    .projectGrid :nth-child(4) {
-        grid-row-start: 6;
-        grid-row-end: 16;
-    }
+  .projectGrid :nth-child(5) {
+    grid-row-start: 10;
+    grid-row-end: 20;
+  }
 
-    .projectGrid :nth-child(5) {
-        grid-row-start: 10;
-        grid-row-end: 20;
-    }
+  .projectGrid :nth-child(6) {
+    grid-row-start: 10;
+    grid-row-end: 26;
+  }
 
-    .projectGrid :nth-child(6) {
-        grid-row-start: 10;
-        grid-row-end: 26;
-    }
+  .projectGrid :nth-child(7) {
+    grid-row-start: 16;
+    grid-row-end: 30;
+  }
 
-    .projectGrid :nth-child(7) {
-        grid-row-start: 16;
-        grid-row-end: 30;
-    }
+  .projectGrid :nth-child(8) {
+    grid-row-start: 20;
+    grid-row-end: 30;
+  }
 
-    .projectGrid :nth-child(8) {
-        grid-row-start: 20;
-        grid-row-end: 30;
-    }
+  .projectGrid :nth-child(9) {
+    grid-row-start: 26;
+    grid-row-end: 36;
+  }
 
-    .projectGrid :nth-child(9) {
-        grid-row-start: 26;
-        grid-row-end: 36;
-    }
+  .projectGrid :nth-child(10) {
+    grid-row-start: 30;
+    grid-row-end: 40;
+  }
 
-    .projectGrid :nth-child(10) {
-        grid-row-start: 30;
-        grid-row-end: 40;
-    }
+  .projectGrid :nth-child(11) {
+    grid-row-start: 30;
+    grid-row-end: 35;
+  }
 
-    .projectGrid :nth-child(11) {
-        grid-row-start: 30;
-        grid-row-end: 35;
-    }
+  .projectGrid :nth-child(12) {
+    grid-row-start: 35;
+    grid-row-end: 40;
+  }
 
-    .projectGrid :nth-child(12) {
-        grid-row-start: 35;
-        grid-row-end: 40;
-    }
+  .projectGrid :nth-child(13) {
+    grid-row-start: 36;
+    grid-row-end: 44;
+  }
 
-    .projectGrid :nth-child(13) {
-        grid-row-start: 36;
-        grid-row-end: 44;
-    }
+  .projectGrid :nth-child(14) {
+    grid-row-start: 40;
+    grid-row-end: 50;
+  }
 
-    .projectGrid :nth-child(14) {
-        grid-row-start: 40;
-        grid-row-end: 50;
-    }
+  .projectGrid :nth-child(15) {
+    grid-row-start: 40;
+    grid-row-end: 45;
+  }
 
-    .projectGrid :nth-child(15) {
-        grid-row-start: 40;
-        grid-row-end: 45;
-    }
-
-    .projectGrid :nth-child(16) {
-        grid-row-start: 44;
-        grid-row-end: 49;
-    }
+  .projectGrid :nth-child(16) {
+    grid-row-start: 44;
+    grid-row-end: 49;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .portraitGrid, .projectGrid {
-        grid-template-columns: repeat(4, 1fr);
-    }
+  .portraitGrid,
+  .projectGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
 
-    .portraitGrid :nth-child(1) {
-        grid-row-start: 1;
-        grid-row-end: 10;
-    }
+  .portraitGrid :nth-child(1) {
+    grid-row-start: 1;
+    grid-row-end: 8;
+  }
 
-    .portraitGrid :nth-child(2) {
-        grid-row-start: 1;
-        grid-row-end: 10;
-    }
+  .portraitGrid :nth-child(2) {
+    grid-row-start: 1;
+    grid-row-end: 6;
+  }
 
-    .portraitGrid :nth-child(3) {
-        grid-row-start: 1;
-        grid-row-end: 15;
-    }
+  .portraitGrid :nth-child(3) {
+    grid-row-start: 1;
+    grid-row-end: 10;
+  }
 
-    .portraitGrid :nth-child(4) {
-        grid-row-start: 1;
-        grid-row-end: 6;
-    }
+  .portraitGrid :nth-child(4) {
+    grid-row-start: 1;
+    grid-row-end: 10;
+  }
 
-    .portraitGrid :nth-child(5) {
-        grid-row-start: 6;
-        grid-row-end: 17;
-    }
+  .portraitGrid :nth-child(5) {
+    grid-row-start: 8;
+    grid-row-end: 18;
+  }
 
-    .portraitGrid :nth-child(6) {
-        grid-row-start: 10;
-        grid-row-end: 20;
-    }
+  .portraitGrid :nth-child(6) {
+    grid-row-start: 6;
+    grid-row-end: 16;
+  }
 
-    .portraitGrid :nth-child(7) {
-        grid-row-start: 10;
-        grid-row-end: 20;
-    }
+  .projectGrid :nth-child(1) {
+    grid-row-start: 1;
+    grid-row-end: 10;
+  }
 
-    .projectGrid :nth-child(1) {
-        grid-row-start: 1;
-        grid-row-end: 10;
-    }
+  .projectGrid :nth-child(2) {
+    grid-row-start: 1;
+    grid-row-end: 10;
+  }
 
-    .projectGrid :nth-child(2) {
-        grid-row-start: 1;
-        grid-row-end: 10;
-    }
+  .projectGrid :nth-child(3) {
+    grid-row-start: 1;
+    grid-row-end: 6;
+  }
 
-    .projectGrid :nth-child(3) {
-        grid-row-start: 1;
-        grid-row-end: 6;
-    }
+  .projectGrid :nth-child(4) {
+    grid-row-start: 1;
+    grid-row-end: 10;
+  }
 
-    .projectGrid :nth-child(4) {
-        grid-row-start: 1;
-        grid-row-end: 10;
-    }
+  .projectGrid :nth-child(5) {
+    grid-row-start: 6;
+    grid-row-end: 16;
+  }
 
-    .projectGrid :nth-child(5) {
-        grid-row-start: 6;
-        grid-row-end: 16;
-    }
+  .projectGrid :nth-child(6) {
+    grid-row-start: 10;
+    grid-row-end: 26;
+  }
 
-    .projectGrid :nth-child(6) {
-        grid-row-start: 10;
-        grid-row-end: 26;
-    }
+  .projectGrid :nth-child(7) {
+    grid-row-start: 10;
+    grid-row-end: 24;
+  }
 
-    .projectGrid :nth-child(7) {
-        grid-row-start: 10;
-        grid-row-end: 24;
-    }
+  .projectGrid :nth-child(8) {
+    grid-row-start: 10;
+    grid-row-end: 20;
+  }
 
-    .projectGrid :nth-child(8) {
-        grid-row-start: 10;
-        grid-row-end: 20;
-    }
+  .projectGrid :nth-child(9) {
+    grid-row-start: 16;
+    grid-row-end: 26;
+  }
 
-    .projectGrid :nth-child(9) {
-        grid-row-start: 16;
-        grid-row-end: 26;
-    }
+  .projectGrid :nth-child(10) {
+    grid-row-start: 20;
+    grid-row-end: 30;
+  }
 
-    .projectGrid :nth-child(10) {
-        grid-row-start: 20;
-        grid-row-end: 30;
-    }
+  .projectGrid :nth-child(11) {
+    grid-row-start: 24;
+    grid-row-end: 29;
+  }
 
-    .projectGrid :nth-child(11) {
-        grid-row-start: 24;
-        grid-row-end: 29;
-    }
+  .projectGrid :nth-child(12) {
+    grid-row-start: 26;
+    grid-row-end: 31;
+  }
 
-    .projectGrid :nth-child(12) {
-        grid-row-start: 26;
-        grid-row-end: 31;
-    }
+  .projectGrid :nth-child(13) {
+    grid-row-start: 26;
+    grid-row-end: 34;
+  }
 
-    .projectGrid :nth-child(13) {
-        grid-row-start: 26;
-        grid-row-end: 34;
-    }
+  .projectGrid :nth-child(14) {
+    grid-row-start: 29;
+    grid-row-end: 39;
+  }
 
-    .projectGrid :nth-child(14) {
-        grid-row-start: 29;
-        grid-row-end: 39;
-    }
+  .projectGrid :nth-child(15) {
+    grid-row-start: 30;
+    grid-row-end: 35;
+  }
 
-    .projectGrid :nth-child(15) {
-        grid-row-start: 30;
-        grid-row-end: 35;
-    }
-
-    .projectGrid :nth-child(16) {
-        grid-row-start: 31;
-        grid-row-end: 36;
-    }
+  .projectGrid :nth-child(16) {
+    grid-row-start: 31;
+    grid-row-end: 36;
+  }
 }
