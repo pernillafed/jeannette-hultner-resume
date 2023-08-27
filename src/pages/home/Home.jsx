@@ -1,5 +1,5 @@
 import styles from "./Home.module.css";
-import Jeannette from "../../assets/photos/jeannette1.jpg";
+import JeannettePortrait from "../../assets//photos/jeannetteHome.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClapperboard, faMasksTheater, faCamera } from "@fortawesome/free-solid-svg-icons";
 
@@ -8,7 +8,7 @@ const Home = () => {
         <div className={styles.home}>
             <h1>Välkommen</h1>
             <div className={styles.hero}>
-                <img src={Jeannette} alt="Jeannette Hultner" />
+                <img src={JeannettePortrait} alt="Jeannette Hultner" />
                 <div>
                     <div>
                         <p className={styles.name}>Jeannette Hultner</p>
