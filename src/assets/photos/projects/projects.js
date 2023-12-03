@@ -1,35 +1,37 @@
-import project1 from "./project1.jpg";
-import project2 from "./project2.jpg";
-import project3 from "./project3.jpg";
-import project4 from "./project4.jpg";
-import project5 from "./project5.jpg";
-import project6 from "./project6.jpg";
-import project7 from "./project7.jpg";
-import project8 from "./project8.JPG";
-import project9 from "./project9.jpg";
-import project10 from "./project10.JPG";
-import project11 from "./project11.JPG";
-import project12 from "./project12.JPG";
-import project13 from "./project13.JPG";
-import project14 from "./project14.jpeg";
-import project15 from "./project15.JPG";
-import project16 from "./project16.JPG";
+import project01 from "./project01.JPG";
+import project02 from "./project02.JPG";
+import project03 from "./project03.JPG";
+import project04 from "./project04.JPG";
+import project05 from "./project05.JPG";
+import project06 from "./project06.jpeg";
+import project07 from "./project07.jpg";
+import project08 from "./project08.JPG";
+import project09 from "./project09.JPG";
+import project10 from "./project10.jpg";
+import project11 from "./project11.jpg";
+import project12 from "./project12.jpg";
+import project13 from "./project13.jpg";
+import project14 from "./project14.jpg";
+import project15 from "./project15.jpg";
+import project16 from "./project16.jpg";
+import project17 from "./project17.jpg";
 
 export default [
-    project1,
-    project2,
-    project3,
-    project4,
-    project5,
-    project6,
-    project7,
-    project8,
-    project9,
+    project01,
+    project02,
+    project03,
+    project04,
+    project05,
+    project06,
+    project07,
+    project08,
+    project09,
     project10,
     project11,
     project12,
     project13,
     project14,
     project15,
-    project16
+    project16,
+    project17
 ];

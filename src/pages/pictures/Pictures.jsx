@@ -27,7 +27,7 @@ const Pictures = () => {
             <div className={styles.projects}>
                 <h2>Projekt</h2>
                 <div className={styles.projectGrid}>
-                    {projects.map((project, i) => (
+                    {projects.sort().reverse().map((project, i) => (
                         <img src={project} alt="Jeannette Hultner-projekt" key={i} onClick={() => handlePictureClick(project)} />
                     ))}
                 </div>
