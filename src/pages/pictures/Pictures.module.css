@@ -17,138 +17,41 @@
 .portraits,
 .projects {
   background-color: #eee;
-  padding: 1rem;
+  padding: 0.75rem;
   border-radius: 1rem;
   margin: 2rem 0;
 }
 
-.portraitGrid,
-.projectGrid {
+.portraitGrid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 40vw;
   gap: 0.5rem;
 }
 
-.portraitGrid img,
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 30vw;
+  gap: 0.5rem;
+}
+
+.portraitGrid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 25%;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
 .projectGrid img {
   width: 100%;
-  border-radius: 0.5rem;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 20%;
   cursor: pointer;
-}
-
-.portraitGrid :nth-child(1) {
-  grid-row-start: 1;
-  grid-row-end: 8;
-}
-
-.portraitGrid :nth-child(2) {
-  grid-row-start: 1;
-  grid-row-end: 6;
-}
-
-.portraitGrid :nth-child(3) {
-  grid-row-start: 8;
-  grid-row-end: 18;
-}
-
-.portraitGrid :nth-child(4) {
-  grid-row-start: 6;
-  grid-row-end: 16;
-}
-
-.portraitGrid :nth-child(5) {
-  grid-row-start: 18;
-  grid-row-end: 28;
-}
-
-.portraitGrid :nth-child(6) {
-  grid-row-start: 16;
-  grid-row-end: 26;
-}
-
-.projectGrid :nth-child(1) {
-  grid-row-start: 1;
-  grid-row-end: 8;
-}
-
-.projectGrid :nth-child(2) {
-  grid-row-start: 1;
-  grid-row-end: 10;
-}
-
-.projectGrid :nth-child(3) {
-  grid-row-start: 8;
-  grid-row-end: 18;
-}
-
-.projectGrid :nth-child(4) {
-  grid-row-start: 10;
-  grid-row-end: 24;
-}
-
-.projectGrid :nth-child(5) {
-  grid-row-start: 18;
-  grid-row-end: 34;
-}
-
-.projectGrid :nth-child(6) {
-  grid-row-start: 24;
-  grid-row-end: 34;
-}
-
-.projectGrid :nth-child(7) {
-  grid-row-start: 34;
-  grid-row-end: 44;
-}
-
-.projectGrid :nth-child(8) {
-  grid-row-start: 34;
-  grid-row-end: 40;
-}
-
-.projectGrid :nth-child(9) {
-  grid-row-start: 40;
-  grid-row-end: 48;
-}
-
-.projectGrid :nth-child(10) {
-  grid-row-start: 44;
-  grid-row-end: 53;
-}
-
-.projectGrid :nth-child(11) {
-  grid-row-start: 48;
-  grid-row-end: 58;
-}
-
-.projectGrid :nth-child(12) {
-  grid-row-start: 53;
-  grid-row-end: 64;
-}
-
-.projectGrid :nth-child(13) {
-  grid-row-start: 58;
-  grid-row-end: 62;
-}
-
-.projectGrid :nth-child(14) {
-  grid-row-start: 62;
-  grid-row-end: 66;
-}
-
-.projectGrid :nth-child(15) {
-  grid-row-start: 64;
-  grid-row-end: 74;
-}
-
-.projectGrid :nth-child(16) {
-  grid-row-start: 66;
-  grid-row-end: 71;
-}
-
-.projectGrid :nth-child(17) {
-  grid-row-start: 71;
-  grid-row-end: 76;
+  border-radius: 0.5rem;
 }
 
 @media screen and (min-width: 576px) {
@@ -156,245 +59,25 @@
     padding: 6.5rem 2rem 4rem 2rem;
   }
 
-  .portraitGrid,
+  .portraitGrid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 32vw;
+  }
+
   .projectGrid {
     grid-template-columns: repeat(3, 1fr);
-  }
-
-  .portraitGrid :nth-child(1) {
-    grid-row-start: 1;
-    grid-row-end: 8;
-  }
-
-  .portraitGrid :nth-child(2) {
-    grid-row-start: 1;
-    grid-row-end: 6;
-  }
-
-  .portraitGrid :nth-child(3) {
-    grid-row-start: 1;
-    grid-row-end: 10;
-  }
-
-  .portraitGrid :nth-child(4) {
-    grid-row-start: 8;
-    grid-row-end: 18;
-  }
-
-  .portraitGrid :nth-child(5) {
-    grid-row-start: 6;
-    grid-row-end: 16;
-  }
-
-  .portraitGrid :nth-child(6) {
-    grid-row-start: 10;
-    grid-row-end: 20;
-  }
-
-  .projectGrid :nth-child(1) {
-    grid-row-start: 1;
-    grid-row-end: 8;
-  }
-
-  .projectGrid :nth-child(2) {
-    grid-row-start: 1;
-    grid-row-end: 10;
-  }
-
-  .projectGrid :nth-child(3) {
-    grid-row-start: 1;
-    grid-row-end: 10;
-  }
-
-  .projectGrid :nth-child(4) {
-    grid-row-start: 8;
-    grid-row-end: 21;
-  }
-
-  .projectGrid :nth-child(5) {
-    grid-row-start: 10;
-    grid-row-end: 26;
-  }
-
-  .projectGrid :nth-child(6) {
-    grid-row-start: 10;
-    grid-row-end: 20;
-  }
-
-  .projectGrid :nth-child(7) {
-    grid-row-start: 20;
-    grid-row-end: 30;
-  }
-
-  .projectGrid :nth-child(8) {
-    grid-row-start: 21;
-    grid-row-end: 27;
-  }
-
-  .projectGrid :nth-child(9) {
-    grid-row-start: 26;
-    grid-row-end: 34;
-  }
-
-  .projectGrid :nth-child(10) {
-    grid-row-start: 27;
-    grid-row-end: 37;
-  }
-
-  .projectGrid :nth-child(11) {
-    grid-row-start: 30;
-    grid-row-end: 40;
-  }
-
-  .projectGrid :nth-child(12) {
-    grid-row-start: 34;
-    grid-row-end: 45;
-  }
-
-  .projectGrid :nth-child(13) {
-    grid-row-start: 37;
-    grid-row-end: 41;
-  }
-
-  .projectGrid :nth-child(14) {
-    grid-row-start: 40;
-    grid-row-end: 44;
-  }
-
-  .projectGrid :nth-child(15) {
-    grid-row-start: 41;
-    grid-row-end: 51;
-  }
-
-  .projectGrid :nth-child(16) {
-    grid-row-start: 44;
-    grid-row-end: 49;
-  }
-
-  .projectGrid :nth-child(17) {
-    grid-row-start: 45;
-    grid-row-end: 50;
+    grid-auto-rows: 24vw;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .portraitGrid,
+  .portraitGrid {
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 12rem;
+  }
+
   .projectGrid {
     grid-template-columns: repeat(4, 1fr);
-  }
-
-  .portraitGrid :nth-child(1) {
-    grid-row-start: 1;
-    grid-row-end: 8;
-  }
-
-  .portraitGrid :nth-child(2) {
-    grid-row-start: 1;
-    grid-row-end: 6;
-  }
-
-  .portraitGrid :nth-child(3) {
-    grid-row-start: 1;
-    grid-row-end: 10;
-  }
-
-  .portraitGrid :nth-child(4) {
-    grid-row-start: 1;
-    grid-row-end: 10;
-  }
-
-  .portraitGrid :nth-child(5) {
-    grid-row-start: 8;
-    grid-row-end: 18;
-  }
-
-  .portraitGrid :nth-child(6) {
-    grid-row-start: 6;
-    grid-row-end: 16;
-  }
-
-  .projectGrid :nth-child(1) {
-    grid-row-start: 1;
-    grid-row-end: 8;
-  }
-
-  .projectGrid :nth-child(2) {
-    grid-row-start: 1;
-    grid-row-end: 10;
-  }
-
-  .projectGrid :nth-child(3) {
-    grid-row-start: 1;
-    grid-row-end: 10;
-  }
-
-  .projectGrid :nth-child(4) {
-    grid-row-start: 1;
-    grid-row-end: 13;
-  }
-
-  .projectGrid :nth-child(5) {
-    grid-row-start: 8;
-    grid-row-end: 24;
-  }
-
-  .projectGrid :nth-child(6) {
-    grid-row-start: 10;
-    grid-row-end: 20;
-  }
-
-  .projectGrid :nth-child(7) {
-    grid-row-start: 10;
-    grid-row-end: 20;
-  }
-
-  .projectGrid :nth-child(8) {
-    grid-row-start: 13;
-    grid-row-end: 19;
-  }
-
-  .projectGrid :nth-child(9) {
-    grid-row-start: 19;
-    grid-row-end: 27;
-  }
-
-  .projectGrid :nth-child(10) {
-    grid-row-start: 20;
-    grid-row-end: 30;
-  }
-
-  .projectGrid :nth-child(11) {
-    grid-row-start: 20;
-    grid-row-end: 30;
-  }
-
-  .projectGrid :nth-child(12) {
-    grid-row-start: 24;
-    grid-row-end: 35;
-  }
-
-  .projectGrid :nth-child(13) {
-    grid-row-start: 27;
-    grid-row-end: 31;
-  }
-
-  .projectGrid :nth-child(14) {
-    grid-row-start: 30;
-    grid-row-end: 34;
-  }
-
-  .projectGrid :nth-child(15) {
-    grid-row-start: 30;
-    grid-row-end: 40;
-  }
-
-  .projectGrid :nth-child(16) {
-    grid-row-start: 31;
-    grid-row-end: 36;
-  }
-
-  .projectGrid :nth-child(17) {
-    grid-row-start: 34;
-    grid-row-end: 39;
+    grid-auto-rows: 8.5rem;
   }
 }

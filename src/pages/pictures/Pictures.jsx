@@ -13,22 +13,28 @@ const Pictures = () => {
         setShowModal(true);
     };
 
+    const sortImages = (a, b) => {
+      if (a > b) return -1;
+      if (a < b) return 1;
+      return 0;
+    }
+
     return (
         <div className={styles.pictures}>
             <h1>Bilder</h1>
             <div className={styles.portraits}>
                 <h2>Porträtt</h2>
                 <div className={styles.portraitGrid}>
-                    {portraits.map((portrait, i) => (
-                        <img src={portrait} alt="Jeannette Hultner-porträtt" key={i} onClick={() => handlePictureClick(portrait)} />
+                    {portraits.sort(sortImages).map((portrait) => (
+                        <img src={portrait} alt="Jeannette Hultner-porträtt" key={portrait} onClick={() => handlePictureClick(portrait)} />
                     ))}
                 </div>
             </div>
             <div className={styles.projects}>
                 <h2>Projekt</h2>
                 <div className={styles.projectGrid}>
-                    {projects.sort().reverse().map((project, i) => (
-                        <img src={project} alt="Jeannette Hultner-projekt" key={i} onClick={() => handlePictureClick(project)} />
+                    {projects.sort(sortImages).map((project) => (
+                        <img src={project} alt="Jeannette Hultner-projekt" key={project} onClick={() => handlePictureClick(project)} />
                     ))}
                 </div>
             </div>
