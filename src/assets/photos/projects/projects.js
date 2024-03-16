@@ -7,7 +7,7 @@ import project06 from "./project06.jpg";
 import project07 from "./project07.JPG";
 import project08 from "./project08.JPG";
 import project09 from "./project09.JPG";
-import project10 from "./project10.JPG";
+// import project10 from "./project10.JPG";
 import project11 from "./project11.jpg";
 import project12 from "./project12.jpg";
 import project13 from "./project13.jpg";
@@ -26,7 +26,7 @@ export default [
     project07,
     project08,
     project09,
-    project10,
+    // project10,
     project11,
     project12,
     project13,
