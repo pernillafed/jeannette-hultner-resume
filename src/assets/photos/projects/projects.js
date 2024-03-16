@@ -7,13 +7,13 @@ import project06 from "./project06.jpg";
 import project07 from "./project07.JPG";
 import project08 from "./project08.JPG";
 import project09 from "./project09.JPG";
-import project10 from "./project10.jpg";
+// import project10 from "./project10.jpg";
 import project11 from "./project11.jpg";
 import project12 from "./project12.jpg";
 import project13 from "./project13.jpg";
 import project14 from "./project14.jpg";
-import project15 from "./project15.jpg";
-import project16 from "./project16.jpg";
+// import project15 from "./project15.jpg";
+// import project16 from "./project16.jpg";
 import project17 from "./project17.jpg";
 
 export default [
@@ -26,12 +26,12 @@ export default [
     project07,
     project08,
     project09,
-    project10,
+    // project10,
     project11,
     project12,
     project13,
     project14,
-    project15,
-    project16,
+    // project15,
+    // project16,
     project17
 ];
