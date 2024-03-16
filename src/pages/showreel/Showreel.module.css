@@ -1,63 +1,72 @@
 .showreel {
-    min-height: 100vh;
-    padding: 6.5rem 2rem;
-    max-width: 800px;
-    margin: 0 auto;
+  min-height: 100vh;
+  padding: 6.5rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .showreel h1 {
-    text-align: center;
-    margin-bottom: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .showreel video {
-    border-radius: 1rem;
-    position: relative;
+  border-radius: 1rem;
+  position: relative;
 }
 
 .showreel h2 {
-    text-align: center;
-    margin: 1.75rem 0 0.75rem 0;
+  text-align: center;
+  margin: 1.75rem 0 0.75rem 0;
 }
 
 .projectLinks {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .projectLinks a {
-    text-decoration: none;
-    color: #222;
-    background-color: #D9F6D9;
-    padding: 1rem;
-    width: 100%;
-    margin-top: 0.5rem;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 1.15rem;
-    border-radius: 0.5rem;
-    transition: background-color 0.3s;
+  text-decoration: none;
+  color: #222;
+  background-color: #d9f6d9;
+  padding: 1rem;
+  width: 100%;
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.15rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s;
 }
 
 @media screen and (min-width: 576px) {
-    .showreel {
-        padding: 6.5rem 2rem 6rem 2rem;
-    }
+  .showreel {
+    padding: 6.5rem 2rem 6rem 2rem;
+  }
 
-    .projectLinks a {
-        margin: 0.5rem 0.25rem 0 0.25rem;
-        width: 48%;
-    }
+  .addition {
+    display: flex;
+    justify-content: center;
+  }
 
-    .projectLinks a:hover {
-        background-color: #c9e6c9;
-    }
+  .addition video {
+    width: 80%;
+  }
+
+  .projectLinks a {
+    margin: 0.5rem 0.25rem 0 0.25rem;
+    width: 48%;
+  }
+
+  .projectLinks a:hover {
+    background-color: #c9e6c9;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .showreel {
-        padding: 6.5rem 2rem 5.5rem 2rem;
-    }
+  .showreel {
+    padding: 6.5rem 2rem 5.5rem 2rem;
+  }
 }
