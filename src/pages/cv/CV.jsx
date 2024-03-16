@@ -24,6 +24,12 @@ const CV = () => {
         }
     };
 
+    const sortCvEntries = (a, b) => {
+      if (a.id > b.id) return -1;
+      if (a.id < b.id) return 1;
+      return 0;
+    }
+
     return (
         <div className={styles.cv}>
             <h1>CV</h1>
@@ -44,7 +50,7 @@ const CV = () => {
                             <FontAwesomeIcon icon={activeTab === category.id ? faAngleUp : faAngleDown} />
                         </div>
                         <div className={activeTab === category.id ? styles.cvContent : ""}>
-                            {activeTab === category.id && category.entries.map(entry => (
+                            {activeTab === category.id && category.entries.sort(sortCvEntries).map(entry => (
                                 <div key={entry.id} className={activeTab === category.id ? styles.cvEntry : ""}>
                                     <div className={activeTab === category.id ? styles.entryHeadingWrapper : ""}>
                                         <h2>{entry.name}</h2>

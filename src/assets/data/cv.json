@@ -4,135 +4,15 @@
     "name": "film/reklam",
     "entries": [
       {
-        "id": "film-1",
-        "name": "Vardaga äldreboende",
-        "description": "Reklam",
-        "title": "Skådespelare",
-        "company": "Klevgränd produktion Stockholm",
-        "year": 2022
+        "id": "movie-01",
+        "name": "Pelle Erövraren",
+        "description": "Film",
+        "title": "Skådespelare (utvandrare)",
+        "company": "SF/Per Holstfilm",
+        "year": 1986
       },
       {
-        "id": "film-2",
-        "name": "Cargo Bike",
-        "description": "Reklam",
-        "title": "Statist",
-        "company": "Moob reklambyrå",
-        "year": 2022
-      },
-      {
-        "id": "film-3",
-        "name": "Sommarkortet Skånetrafiken",
-        "description": "Reklam",
-        "title": "Statist",
-        "company": "Attraction film",
-        "year": 2022
-      },
-      {
-        "id": "film-4",
-        "name": "Arjo Equipment",
-        "description": "Reklam (2 dagar)",
-        "title": "Skådespelare",
-        "company": "Green Monkey film",
-        "year": 2022
-      },
-      {
-        "id": "film-5",
-        "name": "Socialstyrelsen",
-        "description": "Information",
-        "title": "Skådespelare",
-        "company": "Deep vision",
-        "year": 2021
-      },
-      {
-        "id": "film-6",
-        "name": "IKEA",
-        "description": "Reklam",
-        "title": "Skådespelare",
-        "company": "King Edward film",
-        "year": 2021
-      },
-      {
-        "id": "film-7",
-        "name": "Arjo Equipment",
-        "description": "Reklam (6 dagar)",
-        "title": "Skådespelare",
-        "company": "NW Models/Green Monkey",
-        "year": 2021
-      },
-      {
-        "id": "film-8",
-        "name": "Bostadsmatchning",
-        "description": "Reklam",
-        "title": "Skådespelare",
-        "company": "Bassani Studios",
-        "year": 2021
-      },
-      {
-        "id": "film-9",
-        "name": "Shell",
-        "description": "Reklam",
-        "title": "Skådespelare (mormor)",
-        "company": "B-Reel Stockholm",
-        "year": 2021
-      },
-      {
-        "id": "film-10",
-        "name": "Heimstaden",
-        "description": "Reklam",
-        "title": "Skådespelare",
-        "company": "Reklambyrån Bästa Kompisar",
-        "year": 2020
-      },
-      {
-        "id": "film-11",
-        "name": "Forenet Kredit",
-        "description": "Dansk reklam",
-        "title": "Skådespelare",
-        "company": "Fern Studio KPH",
-        "year": 2020
-      },
-      {
-        "id": "film-12",
-        "name": "Weekend Malmö",
-        "description": "Reklam",
-        "title": "Skådespelare",
-        "company": "Malmö kultur/nöje",
-        "year": 2020
-      },
-      {
-        "id": "film-13",
-        "name": "Tetra Pak",
-        "description": "Reklam",
-        "title": "Skådespelare (mormor)",
-        "company": "Creative peoples",
-        "year": 2020
-      },
-      {
-        "id": "film-14",
-        "name": "Alt eller Intet",
-        "description": "Reklam",
-        "title": "Statist",
-        "company": "DanskeSpil A/S KPH",
-        "year": 2019
-      },
-      {
-        "id": "film-15",
-        "name": "Som du smiler",
-        "description": "Musikvideo",
-        "title": "Avancerad statist",
-        "company": "Casting Machofilm KPH",
-        "year": 2019
-      },
-      {
-        "id": "film-16",
-        "name": "IKEA",
-        "description": "Reklam",
-        "title": "Skådespelare (mormor)",
-        "company": "Mint",
-        "year": 2019
-      },
-      {
-        "id": "film-17",
+        "id": "movie-02",
         "name": "IKEA",
         "description": "Reklam",
         "title": "Skådespelare (mormor)",
@@ -140,12 +20,148 @@
         "year": 2019
       },
       {
-        "id": "film-18",
-        "name": "Pelle Erövraren",
-        "description": "Film",
-        "title": "Skådespelare (utvandrare)",
-        "company": "SF/Per Holstfilm",
-        "year": 1986
+        "id": "movie-03",
+        "name": "IKEA",
+        "description": "Reklam",
+        "title": "Skådespelare (mormor)",
+        "company": "Mint",
+        "year": 2019
+      },
+      {
+        "id": "movie-04",
+        "name": "Som du smiler",
+        "description": "Musikvideo",
+        "title": "Avancerad statist",
+        "company": "Casting Machofilm KPH",
+        "year": 2019
+      },
+      {
+        "id": "movie-05",
+        "name": "Alt eller Intet",
+        "description": "Reklam",
+        "title": "Statist",
+        "company": "DanskeSpil A/S KPH",
+        "year": 2019
+      },
+      {
+        "id": "movie-06",
+        "name": "Tetra Pak",
+        "description": "Reklam",
+        "title": "Skådespelare (mormor)",
+        "company": "Creative peoples",
+        "year": 2020
+      },
+      {
+        "id": "movie-07",
+        "name": "Weekend Malmö",
+        "description": "Reklam",
+        "title": "Skådespelare",
+        "company": "Malmö kultur/nöje",
+        "year": 2020
+      },
+      {
+        "id": "movie-08",
+        "name": "Forenet Kredit",
+        "description": "Dansk reklam",
+        "title": "Skådespelare",
+        "company": "Fern Studio KPH",
+        "year": 2020
+      },
+      {
+        "id": "movie-09",
+        "name": "Heimstaden",
+        "description": "Reklam",
+        "title": "Skådespelare",
+        "company": "Reklambyrån Bästa Kompisar",
+        "year": 2020
+      },
+      {
+        "id": "movie-10",
+        "name": "Shell",
+        "description": "Reklam",
+        "title": "Skådespelare (mormor)",
+        "company": "B-Reel Stockholm",
+        "year": 2021
+      },
+      {
+        "id": "movie-11",
+        "name": "Bostadsmatchning",
+        "description": "Reklam",
+        "title": "Skådespelare",
+        "company": "Bassani Studios",
+        "year": 2021
+      },
+      {
+        "id": "movie-12",
+        "name": "Arjo Equipment",
+        "description": "Reklam (6 dagar)",
+        "title": "Skådespelare",
+        "company": "NW Models/Green Monkey",
+        "year": 2021
+      },
+      {
+        "id": "movie-13",
+        "name": "IKEA",
+        "description": "Reklam",
+        "title": "Skådespelare",
+        "company": "King Edward film",
+        "year": 2021
+      },
+      {
+        "id": "movie-14",
+        "name": "Socialstyrelsen",
+        "description": "Information",
+        "title": "Skådespelare",
+        "company": "Deep vision",
+        "year": 2021
+      },
+      {
+        "id": "movie-15",
+        "name": "Arjo Equipment",
+        "description": "Reklam (2 dagar)",
+        "title": "Skådespelare",
+        "company": "Green Monkey film",
+        "year": 2022
+      },
+      {
+        "id": "movie-16",
+        "name": "Sommarkortet Skånetrafiken",
+        "description": "Reklam",
+        "title": "Statist",
+        "company": "Attraction film",
+        "year": 2022
+      },
+      {
+        "id": "movie-17",
+        "name": "Cargo Bike",
+        "description": "Reklam",
+        "title": "Statist",
+        "company": "Moob reklambyrå",
+        "year": 2022
+      },
+      {
+        "id": "movie-18",
+        "name": "Vardaga äldreboende",
+        "description": "Reklam",
+        "title": "Skådespelare",
+        "company": "Klevgränd produktion Stockholm",
+        "year": 2022
+      },
+      {
+        "id": "movie-19",
+        "name": "Oddset",
+        "description": "Reklam",
+        "title": "Statist",
+        "company": "Freelance Reklam KPH",
+        "year": 2023
+      },
+      {
+        "id": "movie-20",
+        "name": "Lotto",
+        "description": "Julreklam",
+        "title": "Statist",
+        "company": "Gobsmack KPH",
+        "year": 2023
       }
     ]
   },
@@ -154,63 +170,15 @@
     "name": "TV-serier/program",
     "entries": [
       {
-        "id": "serie-1",
-        "name": "Pain Killer",
+        "id": "series-01",
+        "name": "Tsunami",
         "description": "TV-serie",
-        "title": "Skådespelare",
-        "company": "Garagefilm",
-        "year": 2022
+        "title": "Skådespelare (mormor)",
+        "company": "Filmlance",
+        "year": 2018
       },
       {
-        "id": "serie-2",
-        "name": "Last week tonight with John Oliver",
-        "description": "Talkshow",
-        "title": "Statist",
-        "company": "Partially Important Productions US",
-        "year": 2022
-      },
-      {
-        "id": "serie-3",
-        "name": "Sugarbaby",
-        "description": "TV-serie",
-        "title": "Statist",
-        "company": "SVT",
-        "year": 2022
-      },
-      {
-        "id": "serie-4",
-        "name": "Hålla samman",
-        "description": "TV-serie",
-        "title": "Sjungande statist",
-        "company": "Anagram",
-        "year": 2022
-      },
-      {
-        "id": "serie-5",
-        "name": "Tunna blå linjen",
-        "description": "TV-serie",
-        "title": "Röstskådespelare",
-        "company": "Anagram",
-        "year": 2020
-      },
-      {
-        "id": "serie-6",
-        "name": "Tunna blå linjen",
-        "description": "TV-serie",
-        "title": "Statist",
-        "company": "Anagram",
-        "year": 2019
-      },
-      {
-        "id": "serie-7",
-        "name": "Tunna blå linjen",
-        "description": "TV-serie",
-        "title": "Avancerad statist",
-        "company": "Anagram",
-        "year": 2019
-      },
-      {
-        "id": "serie-8",
+        "id": "series-02",
         "name": "Festen 2",
         "description": "TV-serie",
         "title": "Statist",
@@ -218,12 +186,60 @@
         "year": 2019
       },
       {
-        "id": "serie-9",
-        "name": "Tsunami",
+        "id": "series-03",
+        "name": "Tunna blå linjen",
         "description": "TV-serie",
-        "title": "Skådespelare (mormor)",
-        "company": "Filmlance",
-        "year": 2018
+        "title": "Avancerad statist",
+        "company": "Anagram",
+        "year": 2019
+      },
+      {
+        "id": "series-04",
+        "name": "Tunna blå linjen",
+        "description": "TV-serie",
+        "title": "Statist",
+        "company": "Anagram",
+        "year": 2019
+      },
+      {
+        "id": "series-05",
+        "name": "Tunna blå linjen",
+        "description": "TV-serie",
+        "title": "Röstskådespelare",
+        "company": "Anagram",
+        "year": 2020
+      },
+      {
+        "id": "series-06",
+        "name": "Hålla samman",
+        "description": "TV-serie",
+        "title": "Sjungande statist",
+        "company": "Anagram",
+        "year": 2022
+      },
+      {
+        "id": "series-07",
+        "name": "Sugarbaby",
+        "description": "TV-serie",
+        "title": "Statist",
+        "company": "SVT",
+        "year": 2022
+      },
+      {
+        "id": "series-08",
+        "name": "Last week tonight with John Oliver",
+        "description": "Talkshow",
+        "title": "Statist",
+        "company": "Partially Important Productions US",
+        "year": 2022
+      },
+      {
+        "id": "series-09",
+        "name": "Pain Killer",
+        "description": "TV-serie",
+        "title": "Skådespelare",
+        "company": "Garagefilm",
+        "year": 2022
       }
     ]
   },
@@ -232,31 +248,15 @@
     "name": "teater/opera",
     "entries": [
       {
-        "id": "teater-1",
-        "name": "Amadeus",
+        "id": "theater-01",
+        "name": "Bubblorna i bäcken",
         "description": "Teater",
         "title": "Skådespelare",
         "company": "Malmö Stadsteater",
-        "year": 2014
+        "year": 2003
       },
       {
-        "id": "teater-2",
-        "name": "Carmen",
-        "description": "Opera",
-        "title": "Statist",
-        "company": "Malmö Opera",
-        "year": 2012
-      },
-      {
-        "id": "teater-3",
-        "name": "Askungen",
-        "description": "Opera",
-        "title": "Statist",
-        "company": "Malmö Opera",
-        "year": 2009
-      },
-      {
-        "id": "teater-4",
+        "id": "theater-02",
         "name": "Hedda",
         "description": "Teater",
         "title": "Skådespelare",
@@ -264,12 +264,28 @@
         "year": 2004
       },
       {
-        "id": "teater-5",
-        "name": "Bubblorna i bäcken",
+        "id": "theater-03",
+        "name": "Askungen",
+        "description": "Opera",
+        "title": "Statist",
+        "company": "Malmö Opera",
+        "year": 2009
+      },
+      {
+        "id": "theater-04",
+        "name": "Carmen",
+        "description": "Opera",
+        "title": "Statist",
+        "company": "Malmö Opera",
+        "year": 2012
+      },
+      {
+        "id": "theater-05",
+        "name": "Amadeus",
         "description": "Teater",
         "title": "Skådespelare",
         "company": "Malmö Stadsteater",
-        "year": 2003
+        "year": 2014
       }
     ]
   },
@@ -278,23 +294,15 @@
     "name": "övrigt",
     "entries": [
       {
-        "id": "övrigt-1",
-        "name": "MTM",
+        "id": "other-01",
+        "name": "DUNI",
         "description": "Stillbildsreklam",
         "title": "Modell",
-        "company": "Apelöga",
-        "year": 2023
+        "company": "Camilla Casting",
+        "year": 2019
       },
       {
-        "id": "övrigt-2",
-        "name": "Sparbanken Skåne",
-        "description": "Stillbildsreklam",
-        "title": "Seniormodell",
-        "company": "Southgate",
-        "year": 2022
-      },
-      {
-        "id": "övrigt-3",
+        "id": "other-02",
         "name": "Figurant till aspiranter",
         "description": "Polisövning",
         "title": "Statist",
@@ -302,12 +310,20 @@
         "year": 2021
       },
       {
-        "id": "övrigt-4",
-        "name": "DUNI",
+        "id": "other-03",
+        "name": "Sparbanken Skåne",
+        "description": "Stillbildsreklam",
+        "title": "Seniormodell",
+        "company": "Southgate",
+        "year": 2022
+      },
+      {
+        "id": "other-04",
+        "name": "MTM",
         "description": "Stillbildsreklam",
         "title": "Modell",
-        "company": "Camilla Casting",
-        "year": 2019
+        "company": "Apelöga",
+        "year": 2023
       }
     ]
   }
